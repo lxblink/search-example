@@ -1,0 +1,85 @@
+.Input___1p9w8 {
+  padding: 20px;
+  border: 0 none;
+  background-color: #333;
+  border-radius: 10px;
+  color: #aaa;
+  outline: none; }
+  .Input___1p9w8:focus {
+    background-color: #444; }
+  .Input___1p9w8[disabled] {
+    cursor: default;
+    opacity: 0.8; }
+
+.Search___31yeo {
+  padding: 20px; }
+
+.Input___3HMjk {
+  width: 100%; }
+
+.Results___1u7Ez {
+  padding: 20px;
+  overflow-y: auto;
+  position: relative; }
+
+.Loading___1YoDF {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.Item___2RsOF {
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #aaaaaa; }
+
+.Header___2vL7R {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.Name___1tqhn {
+  font-weight: bold; }
+
+.Description___UYqRm {
+  max-height: 40px;
+  overflow: hidden; }
+
+.ViewItem___3xfKK {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; }
+
+.Content___1jjNY {
+  padding: 20px;
+  background-color: #333333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  overflow-y: auto; }
+
+html, body, body > div {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #aaaaaa; }
+
+* {
+  box-sizing: border-box; }
+
+.App___2UC6r {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c; }
+
+
+/*# sourceMappingURL=bundle.main.css.map*/
