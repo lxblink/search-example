@@ -1,0 +1,17 @@
+.Input {
+  padding: 20px;
+  border: 0 none;
+  background-color: #333;
+  border-radius: 10px;
+  color: #aaa;
+  outline: none;
+
+  &:focus {
+    background-color: #444;
+  }
+
+  &[disabled] {
+    cursor: default;
+    opacity: 0.8;
+  }
+}

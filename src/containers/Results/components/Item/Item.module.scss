@@ -1,0 +1,19 @@
+.Item {
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #aaaaaa;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Name {
+  font-weight: bold;
+}
+
+.Description {
+  max-height: 40px;
+  overflow: hidden;
+}
